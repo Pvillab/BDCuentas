@@ -26,5 +26,14 @@ namespace BDCuentas.Controllers
 
             return View();
         }
+        public ActionResult LogIn()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+
+
     }
 }
